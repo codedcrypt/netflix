@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(20, 20, 20);
+}
+
+
+main{
+    background-color: rgb(20, 20, 20);
+    height: 60%;
+    width: 85%;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 12px; */
+}
+
+main h1{
+    text-align: center;
+  margin-top: 15px;
+  margin-bottom:15px;
+  color: white;
+}
+
+
+div section h2{
+    text-align: center;
+  margin-top: 10px;
+  margin-bottom:5px;
+  color: grey;
+}
+
+
+.yemen{
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin: 0 10rem;
+}
+
+.yemen section{
+    /* background-color: #ffffff; */
+  width: 23%;
+  height: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.yemen section img:hover{
+    background-color: goldenrod;
+   border-radius: 2rem;
+   
+}
+
+.yemen section img:active{
+    color: aquamarine;
+    border-radius: 2rem;
+    box-shadow: 7px 7px 7px rgba(10, 5, 5, 2.5);
+}
+
+img {
+    width: 100%;
+   border-radius: 10rem;
+   
+}
+
+
+main .yes{
+    align-items: center;
+    justify-content: center;
+    /* border: 2px; */
+    color:white;
+    display: flex;
+    margin-top: 7.5rem;
+    /* border-style:solid; */
+    
+
+}
+.yes button{
+    color:grey;
+    background-color:rgb(20, 20, 20) ;
+    font-weight: 300;
+    /* box-sizing: border-box;
+    /* margin: 5 5 solid white; */
+     */
+} 
+.yes button:hover{
+    color: bisque;
+    cursor:pointer;
+    transition-duration: 2s;
+    /* text-shadow:  4px 4px 4px rgba(0, 0, 0, 2.5); */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 2.5);
+}
+
+div section h2:hover{
+     text-shadow:  4px 4px 4px rgba(0, 0, 0, 2.5);
+     color:rgb(140, 89, 89);
+}
+
+div section h2:active{
+    color: chocolate;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 2.5);
+    border-radius: 2px;
+}
+
+nav{
+    width: 15%;
+  height: 3rem;
+  /* margin: -1rem auto; */
+  display: flex;
+  margin-top: -12%;
+  float: left;
+  margin-left: -9%;
+}
+
