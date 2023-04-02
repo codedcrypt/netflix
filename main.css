@@ -36,10 +36,10 @@ h1{
 }
 
 .email , .pass {
-    padding: 1rem 9.5rem 1rem 0.4rem;
+    padding: 1rem 9.7rem 1rem 0.4rem;
     margin-top: 1.5rem;
-   
-
+    background-color:rgb(72, 69, 69);
+    border:none;
     border-radius: 5px;
 }
 
